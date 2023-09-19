@@ -9,7 +9,6 @@ import Participate from './Participate'
 import Feature from './Feature'
 import Quiz from './Quiz'
 import Footer from './Footer'
-import Features2 from './Features2'
 
 const LandingPage = () => {
   return (

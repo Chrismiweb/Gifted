@@ -1,7 +1,8 @@
 import React from 'react'
 import './CommunityPage.css'
 import logo from '../images/logo.png';
-import {AiOutlineArrowRight} from 'react-icons/ai';
+import {BsArrowRight} from 'react-icons/bs';
+
 import clock from '../images/clock.png'
 import run from '../images/run.png';
 import leader from '../images/leader.png';
@@ -27,7 +28,7 @@ const Asidebar = () => {
                     <img src={logo} alt="" />
                 </div>
                 </Link>
-                <p><AiOutlineArrowRight/></p>
+                <p><BsArrowRight/></p>
             </div>
 
             <Link to={'/Dashboard'}>
