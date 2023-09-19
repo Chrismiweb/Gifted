@@ -17,6 +17,7 @@ import LeaderboardPage from './Component/LeaderboardPage';
 import SettingPage from './Component/SettingPage';
 import GethelpPage from './Component/GethelpPage';
 import CommunityPage from './Component/CommunityPage';
+import Asidebar from './Component/Asidebar';
 
 
 
@@ -25,7 +26,7 @@ function App() {
     <div className="App">
         <BrowserRouter>
           <Routes>
-            <Route path='/' element={<LandingPage/>}/>
+            <Route path='/' element={<Asidebar/>}/>
             <Route path='hero' element={<Hero />}/>
             <Route path='/sign' element={<SignIn />}/>
             <Route path='/signUp' element={<SignUp/>}/>
