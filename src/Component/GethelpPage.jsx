@@ -21,7 +21,7 @@ import man from '../images/man.png';
 import Props from './Earnings'
 import { Link } from 'react-router-dom';
 import{BiMenu} from 'react-icons/bi';
-import {AiOutlineClose} from 'react-icons/ai';
+// import {AiOutlineClose} from 'react-icons/ai';
 
 
 function GethelpPage() {
@@ -174,7 +174,7 @@ function GethelpPage() {
                             <img src={logo} alt="" />
                         </div>
                         </Link>
-                        <button onClick={closeMenu}><AiOutlineClose/></button>
+                        <button onClick={closeMenu}>X</button>
 
                         {/* <button onClick={closeMenu}>ttt</button> */}
                     </div>

@@ -15,7 +15,7 @@ import community from '../images/community.png';
 import help from '../images/help.png';
 import { Link } from 'react-router-dom';
 import{BiMenu} from 'react-icons/bi';
-import {AiOutlineClose} from 'react-icons/ai';
+// import {AiOutlineClose} from 'react-icons/ai';
 import Asidebar from './Asidebar';
 
 
@@ -59,7 +59,7 @@ function CommunityPage() {
                             <img src={logo} alt="" />
                         </div>
                         </Link>
-                        <button onClick={closeMenu}><AiOutlineClose/></button>
+                        <button onClick={closeMenu}>X</button>
 
                     </div>
                     <Link to={'/Dashboard'}>

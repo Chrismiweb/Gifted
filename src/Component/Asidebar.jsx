@@ -14,8 +14,8 @@ import setting from '../images/setting.png';
 import community from '../images/community.png';
 import help from '../images/help.png';
 import { Link } from 'react-router-dom';
-import{BiMenu} from 'react-icons/bi';
-import {AiOutlineClose} from 'react-icons/ai';
+// import{BiMenu} from 'react-icons/bi';
+// import {AiOutlineClose} from 'react-icons/ai';
 
 const Asidebar = () => {
   return (

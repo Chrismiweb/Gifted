@@ -18,7 +18,7 @@ import help from '../images/help.png';
 // import './Features2.css'
 import { Link } from 'react-router-dom';
 import{BiMenu} from 'react-icons/bi';
-import {AiOutlineClose} from 'react-icons/ai';
+// import {AiOutlineClose} from 'react-icons/ai';
 import{VscTriangleDown} from 'react-icons/vsc';
 import crypto from '../images/crypto.png';
 import uxdesign from '../images/UXdesign.png';
@@ -222,7 +222,7 @@ function CoursePage() {
                             <img src={logo} alt="" />
                         </div>
                         </Link>
-                        <button onClick={closeMenu}><AiOutlineClose/></button>
+                        <button onClick={closeMenu}>X</button>
 
                         {/* <button onClick={closeMenu}>ttt</button> */}
                     </div>
