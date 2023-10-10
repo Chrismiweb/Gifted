@@ -11,3 +11,9 @@
     align-items: center;
     background-color: whitesmoke;
 }
+
+@media screen and (max-width: 950px) {
+    .Paymentheader button{
+        font-size: 35px;
+    }
+}

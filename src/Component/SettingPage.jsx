@@ -16,7 +16,7 @@ import help from '../images/help.png';
 // import Props from './Earnings';
 // import './Features2.css'
 import { Link } from 'react-router-dom';
-import{BiMenu} from 'react-icons/bi';
+// import{BiMenu} from 'react-icons/bi';
 // import {AiOutlineClose} from 'react-icons/ai';
 import chrismi from '../images/chrismi.jpeg'
 import Asidebar from './Asidebar';
@@ -37,7 +37,7 @@ function SettingPage() {
 
         <div className='SettingRightSide'>
             <div className='SettingTop'>
-                <button onClick={openMenu}><BiMenu/></button>
+                <button onClick={openMenu}>=</button>
                 <h1>Settings</h1>
                 <p>manage all your settings  in here.</p>
                 <div className='SettingProfilePics'>

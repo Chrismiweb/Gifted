@@ -16,7 +16,7 @@ import help from '../images/help.png';
 // import Props from './Earnings';
 // import './Features2.css'
 import { Link } from 'react-router-dom';
-import{BiMenu} from 'react-icons/bi';
+// import{BiMenu} from 'react-icons/bi';
 import Asidebar from './Asidebar';
 // import {AiOutlineClose} from 'react-icons/ai';
 
@@ -34,7 +34,7 @@ function ReferralPage() {
 
         <div className='ReferalRight'>
             <div className='Paymentheader'>
-                <button onClick={openMenu}><BiMenu/></button>
+                <button onClick={openMenu}>=</button>
                 <h1>Referrals History</h1>
                 <p>manage your friends 
                     transactions with ease.
