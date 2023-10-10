@@ -12,13 +12,13 @@ import earning from '../images/earning.png';
 import setting from '../images/setting.png';
 import community from '../images/community.png';
 import help from '../images/help.png';
-import bell from '../images/bell.png';
-import man from '../images/man.png';
+// import bell from '../images/bell.png';
+// import man from '../images/man.png';
 // import Props from './Earnings';
 // import './Features2.css'
-import Props from './Earnings'
+// import Props from './Earnings'
 import { Link } from 'react-router-dom';
-import{BiMenu} from 'react-icons/bi';
+// import{BiMenu} from 'react-icons/bi';
 import Asidebar from './Asidebar';
 // import {AiOutlineClose} from 'react-icons/ai';
 
@@ -37,7 +37,7 @@ function PaymentPage() {
 
         <div className='PaymentRightSide'>
             <div className='Paymentheader'>
-                <button onClick={openMenu}><BiMenu/></button>
+                <button onClick={openMenu}>=</button>
                 <h1>Payment Method</h1>
                 <p>select your payment
                 method and Proceed with the 

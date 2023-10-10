@@ -77,8 +77,10 @@
         display: flex;
         border: none;
         background-color: none;
-        font-size: 20px;
+        font-size: 30px;
         cursor: pointer;
+        font-weight: bolder;
+        background-color: whitesmoke;
     }
     .CommnunityBtn button{
         padding: 13px 50px;

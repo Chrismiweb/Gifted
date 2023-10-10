@@ -13,11 +13,8 @@ import earning from '../images/earning.png';
 import setting from '../images/setting.png';
 import community from '../images/community.png';
 import help from '../images/help.png';
-import bell from '../images/bell.png';
-import man from '../images/man.png';
 // import Props from './Earnings';
 // import './Features2.css'
-import Props from './Earnings'
 import { Link } from 'react-router-dom';
 import{BiMenu} from 'react-icons/bi';
 // import {AiOutlineClose} from 'react-icons/ai';

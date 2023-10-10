@@ -16,7 +16,7 @@ import help from '../images/help.png';
 // import Props from './Earnings';
 // import './Features2.css'
 import { Link } from 'react-router-dom';
-import{BiMenu} from 'react-icons/bi';
+// import{BiMenu} from 'react-icons/bi';
 import Asidebar from './Asidebar';
 // import {AiOutlineClose} from 'react-icons/ai';
 
@@ -35,7 +35,7 @@ function LeaderboardPage() {
 
         <div className='LeaderboardRight'>
                 <div className='Paymentheader'>
-                    <button onClick={openMenu}><BiMenu/></button>
+                    <button onClick={openMenu}>=</button>
                     <h1>Leaderboard</h1>
                     <p>view the leaderboard history
                     </p>

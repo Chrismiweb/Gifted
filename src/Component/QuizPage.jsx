@@ -12,15 +12,9 @@ import earning from '../images/earning.png';
 import setting from '../images/setting.png';
 import community from '../images/community.png';
 import help from '../images/help.png';
-import bell from '../images/bell.png';
-import man from '../images/man.png';
-// import Props from './Earnings';
-// import './Features2.css'
-import Props from './Earnings'
+
 import { Link } from 'react-router-dom';
-import{BiMenu} from 'react-icons/bi';
 import Asidebar from './Asidebar';
-// import {AiOutlineClose} from 'react-icons/ai';
 
 function QuizPage() {
     const[menuHide,setMenuHide] = useState(false);
@@ -36,7 +30,7 @@ function QuizPage() {
 
         <div className='QuizRight'>
             <div className='QuizTop'>
-                <button onClick={openMenu}><BiMenu/></button>
+                <button onClick={openMenu}>=</button>
                 <div className='Topright'>
                     <h1>Play And Win Big Time</h1>
                     <p>Test Your Knowledge With Quiz And Earn SQP Points.</p>

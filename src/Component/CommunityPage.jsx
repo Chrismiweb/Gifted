@@ -14,7 +14,7 @@ import setting from '../images/setting.png';
 import community from '../images/community.png';
 import help from '../images/help.png';
 import { Link } from 'react-router-dom';
-import{BiMenu} from 'react-icons/bi';
+// import{BiMenu} from 'react-icons/bi';
 // import {AiOutlineClose} from 'react-icons/ai';
 import Asidebar from './Asidebar';
 
@@ -33,7 +33,7 @@ function CommunityPage() {
 
         <div className='CommunityRightSide'>
             <div className='ComMenu'>
-                 <button onClick={openMenu}><BiMenu/></button>
+                 <button onClick={openMenu}>=</button>
             </div>
             <div className='CommunityContainer'>
                 <div className='Communityheader'>

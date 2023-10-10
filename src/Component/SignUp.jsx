@@ -59,9 +59,9 @@ function SignUp() {
           <div className='signUp-footer'>
               <Link to={'/'}><p>← Back To Home</p></Link>
               <p>|</p>
-              <a href=""><p>Privacy & Policy</p></a>
+              <p>Privacy & Policy</p>
               <p>|</p>
-              <a href=""><p>Terms & Condition</p> </a>
+              <p>Terms & Condition</p>
 
           </div>
       </div>

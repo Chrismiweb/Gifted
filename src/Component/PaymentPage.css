@@ -70,10 +70,11 @@
     }
     .Paymentheader button{
         display: flex;
-        font-size: 20px;
         border: none;
         background-color: whitesmoke;
         cursor: pointer;
+        font-size: 24px;
+        font-weight: bolder;
     }
     .Paymentheader h1{
         font-size: 23px;

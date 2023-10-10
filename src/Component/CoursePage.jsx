@@ -16,7 +16,7 @@ import help from '../images/help.png';
 // import Props from './Earnings';
 // import './Features2.css'
 import { Link } from 'react-router-dom';
-import{BiMenu} from 'react-icons/bi';
+// import{BiMenu} from 'react-icons/bi';
 // import {AiOutlineClose} from 'react-icons/ai';
 import{VscTriangleDown} from 'react-icons/vsc';
 import crypto from '../images/crypto.png';
@@ -218,7 +218,7 @@ function CoursePage() {
 
       <div className='courseRight'>
           <div className='courseTopbar'>
-              <button onClick={openMenu}><BiMenu/></button>
+              <button onClick={openMenu}>=</button>
               <div className='explore'>
                   <h1>Explore Your Prefered Course</h1>
                   <p>Choose Your Favorite Course To Acquire, And Be The Best In Your Niche.</p>

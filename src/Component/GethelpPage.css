@@ -88,10 +88,11 @@
 @media screen and (max-width:950px) {
     .Getheader button{
         display: flex;
-        font-size: 20px;
+        font-size: 24px;
         border: none;
         background-color: whitesmoke;
         cursor: pointer;
+        font-weight: bolder;
     }
     .Getheader p{
         width: 80%;

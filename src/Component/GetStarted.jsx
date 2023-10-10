@@ -1,6 +1,7 @@
 import React from 'react'
 import dashboard from '../images/dashboard.png'
 import './GetStarted.css';
+import { Link } from 'react-router-dom';
 
 
 function GetStarted(){
@@ -9,7 +10,7 @@ function GetStarted(){
                 <div className='text'>
                     <h1>We Breed And Reward Intellectuals</h1>
                     <p>Earn And Learn Unlimitedly As A Member...</p>
-                    <a href=""><button>Get Started</button></a>
+                    <Link to={''}><button>Get Started</button></Link>
                 </div>
 
                 <div className='dashboardImg'>

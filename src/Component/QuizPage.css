@@ -107,8 +107,11 @@
         display: flex;
         border: none;
         background-color: none;
-        font-size: 20px;
+        font-size: 24px;
         cursor: pointer;
+        background-color: whitesmoke;
+        font-weight: bolder;
+        
     }
     .QuizTop{
         overflow: hidden;

@@ -36,7 +36,7 @@ function Learn() {
                     </div>
                     <h1>{lrn.headig}</h1>
                     <p>{lrn.content}</p>
-                    <a href="#"> <button>{lrn.learnMore}</button> </a>
+                    <button>{lrn.learnMore}</button>
                 </div>
             ))}
         </div>

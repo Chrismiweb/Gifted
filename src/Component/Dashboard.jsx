@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import './Dashboard.css'
 import logo from '../images/logo.png';
-import {AiOutlineArrowRight} from 'react-icons/ai';
+// import {AiOutlineArrowRight} from 'react-icons/ai';
 import clock from '../images/clock.png'
 import run from '../images/run.png';
 import leader from '../images/leader.png';
@@ -19,7 +19,7 @@ import man from '../images/man.png';
 // import './Features2.css'
 import Props from './Earnings'
 import { Link } from 'react-router-dom';
-import{BiMenu} from 'react-icons/bi';
+// import{BiMenu} from 'react-icons/bi';
 import Asidebar from './Asidebar';
 // import {AiOutlineClose} from 'react-icons/ai';
 
@@ -155,17 +155,11 @@ function Dashboard() {
       
            
 
-                
-        
-
-
-        
-
                
             
         <div className='right-side'>
             <div className='top-bar'>
-                <button onClick={openMenu}><BiMenu/></button>
+                <button onClick={openMenu}>=</button>
                 <h1>Dashboard</h1>
                 <input type="search" />
                 <div className='bellimg'>

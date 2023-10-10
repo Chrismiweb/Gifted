@@ -447,11 +447,13 @@ td{
     }
     .top-bar button{
         display: flex;
-        font-size: 25px;
         border:none;
         background-color: none;
         margin-right: 40px;
+        font-size: 24px;
         cursor: pointer;
+        background-color: whitesmoke;
+        font-weight: bolder;
     }
     .welcometext{
         font-size: 23px;

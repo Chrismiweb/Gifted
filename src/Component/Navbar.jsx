@@ -17,9 +17,9 @@ function Navbar() {
             <img src={logo} alt="" />
          </div>
         <div className='page'>
-            <a href="">Course</a>
-            <a href="">Career</a>
-            <a href="">About Us</a>
+        <Link to={''}>Course</Link>
+        <Link to={''}>Career</Link>
+        <Link to={''}>About Us</Link>
             <Link to={'/sign'}><button>Sign In</button></Link>
         </div>
         <button className='menuBar' onClick={toggle}>=</button>   
@@ -27,8 +27,8 @@ function Navbar() {
 
           <div className={hide? "menu1" : 'menu2'}>
               <Link to={'/Course'}>Course</Link>
-              <a href="">Career</a>
-              <a href="">About Us</a>
+              <Link to={''}>Career</Link>
+              <Link to={''}>About Us</Link>
               <Link to={'/sign'}><button>Sign In</button></Link>
               
         </div> 

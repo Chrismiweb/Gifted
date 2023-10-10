@@ -1,4 +1,4 @@
-import logo from './logo.svg';
+// import logo from './logo.svg';
 import './App.css';
 // import {BrowserRouter, Routes, Route} from 'react-router-dom'
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
@@ -8,7 +8,7 @@ import SignUp from './Component/SignUp';
 import Dashboard from './Component/Dashboard';
 import LandingPage from './Component/LandingPage';
 import CoursePage from './Component/CoursePage';
-import Api from './Component/Api';
+// import Api from './Component/Api';
 import PlanPage from './Component/PlanPage';
 import QuizPage from './Component/QuizPage';
 import PaymentPage from './Component/PaymentPage';
@@ -17,7 +17,7 @@ import LeaderboardPage from './Component/LeaderboardPage';
 import SettingPage from './Component/SettingPage';
 import GethelpPage from './Component/GethelpPage';
 import CommunityPage from './Component/CommunityPage';
-import Asidebar from './Component/Asidebar';
+// import Asidebar from './Component/Asidebar';
 
 
 
@@ -26,7 +26,7 @@ function App() {
     <div className="App">
         <BrowserRouter>
           <Routes>
-            <Route path='/' element={<Asidebar/>}/>
+            <Route path='/' element={<LandingPage/>}/>
             <Route path='hero' element={<Hero />}/>
             <Route path='/sign' element={<SignIn />}/>
             <Route path='/signUp' element={<SignUp/>}/>
